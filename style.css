@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@100&family=Titillium+Web:wght@400;700&display=swap');
+
+:root{
+    --blue-color: #161a3d ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    height: 400vh;
+}
+
+.nowbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    height: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: var(--blue-color);
+    padding-top: 1.3rem;
+    width: 126.2rem;
+    
+}
+
+.nowbar a{
+    color: #a99c93;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-right: 0.9rem;
+}
+
+.nowbar .btn{
+    background-color: #ffd564;
+    height: 4rem;
+    border-radius: 6px;
+    width: 12rem;
+}
+
+.bülbül{
+    width: 126.2rem;
+    background-color: var(--blue-color);
+}
+
+.section{
+    height: 146rem;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    color: white;
+    background-color: var(--blue-color);
+}
+
+.container .text h6{
+    font-size: 2rem;
+    
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -1.5rem;
+}
+
+.film {
+    display: flex;
+    background-color: #dbdee1;
+    width: 32rem;
+    margin-top: 2.5rem;
+}
+
+.film .filmimg{
+    width: 16rem;
+}
+
+.film .filmad a{
+    color: #1abc9c;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.film .filmad{
+    color: black;
+    font-size: 1.4rem;
+    padding-top: 1.4rem;
+}
+
+.film .btn{
+    background-color: #ffd564;
+    color: black;
+    border: none;
+    margin-top: 15.2rem;
+    width: 16rem;
+    cursor: pointer;
+    height: 4rem;
+}
+
+.filmad .aksiyon{
+    padding-left: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    text-decoration: none;
+}
+
+.iletişim a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.iletişim a:hover{
+    color: red;
+}
+
+.vizyon a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.vizyon a:hover{
+    color: red;
+}
+
+.medya a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 4rem;
+    height: 4rem;
+    padding-top: .8rem;
+    border-radius: 2rem;
+}
+
+.medya a:hover{
+    color: white;
+    background-color: gray;
+}
+
